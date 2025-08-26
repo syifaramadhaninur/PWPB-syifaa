@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Document</title>
+    <style>
+        fieldset{
+            background-color: rgb(220, 255, 197);
+        }
+        legend{
+            background-color: rgb(152, 246, 255);
+            color: rgb(0, 0, 0);
+        }
+        div{
+            margin: 5px;
+        }
+        form{
+            border: solid 1px pink;
+            background-color: rgb(133, 191, 243);
+            padding: 15px;
+        }
+        input.button{
+            background: rgb(255, 167, 249);
+            font-family: sans-serif;
+            border-radius: 5px;
+        }
+        input.button:hover{
+            border: 2px black;
+            cursor: pointer;
+        }
+        input.button:active{
+            background: rgb(188, 183, 255);
+        }
+    </style>
+</head>
+<body>
+    <fieldset>
+        <legend>Universitas Patilasan Ikip</legend>
+        <form method="post" action="#"
+        <div>Nama:
+            <input type="text" name="nama" placeholder="nama">
+        </div>
+        <div>Asal sekolah:
+            <input type="text" name="nama sekolah" placeholder="Nama sekolah"
+        </div>
+        <div>Jenis kelamin:<br>
+            <input type="radio" name="jk">Laki-laki <br>
+            <input type="radio" name="jk">Perempuan 
+        </div>
+        <div>Agama
+            <select>
+                <option>islam</option>
+                <option>kristen</option> 
+                <option>budha</option>
+                <option>hindu</option>
+            </select>
+        </div>
+        <div>
+            <input type="text" placeholder="matematika">
+            <input type="text" placeholder="bahasa indonesia">
+            <input type="text" placeholder="bahasa inggris">
+        </div>
+        <div>Fakultas Pilihan
+            <select>
+                <option>Fakultas Ilmu Pendidikan</option>
+                <option>Fakultas Pendidikan Bahasa Dan Seni</option> 
+                <option>Fakultas Pendidikan Olahraga dan Kesehatan</option>
+                <option>Fakultas Pendidikan Teknik Dan kejuruan</option>
+                <option>Fakultas Pendidikan Matematika Dan Ilmu Pengetahuan Alam</option>
+                <option>Fakultas Pendidikan Ilmu Pengetahuan Sosial</option>
+                <option>Fakultas Pendidikan Ekonomi Dan Bisnis</option>
+            </select>
+        </div>
+        <div>
+            Anda menyetujui persyaratan yang berlaku <br>
+            <input type="checkbox">Setuju
+        </div>
+        <div>
+            <input type="submit" name="submit" value="submit" class="button">
+            <input type="reset" name="reset" value="reset" class="button">
+        </div>
+    </fieldset>
+</body>
+</html>
